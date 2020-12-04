@@ -16,7 +16,8 @@ This set of fonts are used in this project under the license: (...)
          url(../../fonts/woff/iransansdnlight.woff) format('woff'),
          url(../../fonts/svg/iransansdnlight.svg) format('svg'),
          url(../../fonts/woff2/iransansdnlight.woff2) format('woff2');
-    font-style: thin;
+    font-style: normal;
+    font-weight: 100;
 }
 @font-face{
     font-family: 'IranSans';
@@ -26,6 +27,7 @@ This set of fonts are used in this project under the license: (...)
          url(../../fonts/svg/iransansdn.svg) format('svg'),
          url(../../fonts/woff2/iransansdn.woff2) format('woff2');
     font-style: normal;
+    font-weight: normal;
 }
 @font-face{
     font-family: 'IranSans';
@@ -34,5 +36,6 @@ This set of fonts are used in this project under the license: (...)
          url(../../fonts/woff/iransansdnbold.woff) format('woff'),
          url(../../fonts/svg/iransansdnbold.svg) format('svg'),
          url(../../fonts/woff2/iransansdnbold.woff2) format('woff2');
-    font-style: bold;
+    font-style: normal;
+    font-weight: bold;
 }

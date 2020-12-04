@@ -1,0 +1,287 @@
+body {
+    background: #292929;
+}
+
+p, a, h1, h2, h3, h4, h5, h6, span {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #bdbdbd;
+}
+
+.mm-spn.mm-spn--light {
+    background: #272727 !important;
+}
+
+.mm-spn a, .mm-spn span {
+    color: white;
+}
+
+#menu-icon span {
+    background: #4d4d4d;
+}
+
+.text-dark {
+    color: #fff !important;
+}
+
+.bg-white {
+    background: #333333 !important;
+}
+
+.header-background-one img {
+    opacity: .2;
+}
+
+* {
+    box-shadow: none !important;
+}
+
+*:hover {
+    box-shadow: none !important;
+}
+
+header {
+    background: #2E2E2E ;
+    box-shadow: none;
+}
+
+header .nav-item a {
+    color: #dbdbdb !important;
+}
+
+header .dropdown .dropdown-menu {
+    background: #2E2E2E !important;
+    box-shadow: none;
+}
+
+.dropdown-item:hover {
+    background: #333333;
+}
+
+
+#preloader {
+    background: #242424 !important;
+}
+
+.image-up-down {
+    opacity: 0.6 !important;
+}
+
+.services-svg-image {
+    opacity: .02 !important;
+}
+
+/* Blog style */
+.blog-item {
+    background: #363636;
+    box-shadow: none !important;
+}
+
+/* Contact us style */
+.section-contact-us {
+    background-image: url('../../img/backgrounds/map-dark.png');
+}
+
+
+
+/* header hovers */
+.megamenu>a::before {
+    background: #d1d1d1;
+}
+
+
+.megamenu:hover>a {
+    color: #c0c0c0 !important;
+    background: #444444;
+}
+
+.hover-bottom-line::before {
+    background: #d1d1d1;
+}
+
+.hover-bottom-line:hover {
+    color: #c0c0c0 !important;
+    background: #444444;
+}
+
+
+/* Comments section */
+.comments-div {
+    background: #363636;
+}
+
+.comments-modal {
+    background: #363636;
+}
+
+
+
+
+/* Cutsome scrollbars */
+*,
+.search-page {
+    scrollbar-width: thin;
+    scrollbar-color: #242424 #313131;
+}
+
+*::-webkit-scrollbar,
+.search-page::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track,
+.search-page::-webkit-scrollbar-track {
+    background: #242424;
+}
+
+*::-webkit-scrollbar-thumb,
+.search-page::-webkit-scrollbar-thumb {
+    background-color: #313131;
+    border: 1px solid #242424;
+}
+
+
+.services-card {
+    background: #363636;
+}
+
+
+/* Projects style and filter style */
+#ProjectsBtnContainer .btn {
+    border: 1px solid #1F1F1F;
+    color: #a5a5a5;
+    background-color: #2E2E2E;
+}
+
+#ProjectsBtnContainer .btn:hover {
+    background: #1F1F1F;
+    color: #a5a5a5;
+}
+
+#ProjectsBtnContainer .btn.projects-btn-active {
+    background: #1F1F1F;
+    color: #fff;
+}
+
+.filter-projects-item {
+    background: #363636;
+}
+
+.shape-bg-projects {
+    opacity: .1;
+}
+
+
+.filter-projects-item .hover-on-projects-content .projects-content-btn-link .logo-link {
+    color: #44d7b6;
+    background: #383838;
+}
+
+
+.card-pricing {
+    background: #363636;
+}
+
+
+
+/* btn */
+.login-register-button {
+    border: solid 1px #505050;
+    color: #999999;
+}
+
+.login-register-button::before,
+.login-register-button::after {
+    background: #505050;
+}
+
+.login-register-button:hover {
+    color: #e9e9e9;
+    box-shadow: none;
+}
+
+
+/* Custom text colors */
+.text-blue-gray {
+    color: #93a7cf !important;
+}
+
+.text-white-black {
+    color: #303030 !important;
+}
+
+
+/* Scroll to top button */
+.scroll-to-top {
+    background: #202020;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .05);
+}
+
+.scroll-to-top i {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #677592;
+    transition: all .5s;
+}
+
+.scroll-to-top:hover i {
+    color: #677592;
+}
+
+.scroll-to-top:hover {
+    background: #1F1F1F;
+}
+
+.section-errors img{
+    opacity: .2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input:checked+.slider {
+    background: #414141;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+input:checked+.slider:before {
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(25px);
+    background: #242424 url('../../img/theme-toggle-icons/dark-toggle-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
