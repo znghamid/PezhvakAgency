@@ -2,8 +2,25 @@ body {
     background: #292929;
 }
 
-p, a, h1, h2, h3, h4, h5, h6, span, li {
+p, a, h1, h2, h3, h4, h5, h6, span, li, label {
     color: #ffffff;
+}
+
+hr {
+    background-color: #444444;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #686868 !important;
+    opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #686868 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #686868 !important;
 }
 
 a:hover {
@@ -205,7 +222,7 @@ header .dropdown .dropdown-menu {
 
 /* Custom text colors */
 .text-blue-gray {
-    color: #93a7cf !important;
+    color: #97a4bd !important;
 }
 
 .text-white-black {
@@ -349,7 +366,57 @@ blockquote::before{
 }
 
 
-#commentMessage {
+#commentMassage {
     background-color: #333333;
     color: #fff;
+}
+
+
+
+.login-register {
+    background-color: #333333;
+}
+
+.login-register input {
+    background-color: #2E2E2E;
+    color: #9292FF !important;
+    border: solid 1px #292929 !important;
+}
+
+.login-register input:focus {
+    background-color: #2E2E2E;
+    border: solid 1px #9292FF !important;
+}
+
+.login-register .google-icon {
+    border: solid 2px #292929;
+}
+
+.login-register .link {
+    color: #9292FF;
+}
+
+
+
+
+.contact-us-item-card {
+    background: #363636;
+}
+
+.contact-us-item-card .contact-image-item {
+    background-color: #444444;
+}
+
+
+.Contact-us-form input,
+.Contact-us-form textarea {
+    background-color: #2E2E2E;
+    color: #9292FF !important;
+    border: solid 1px #1F1F1F !important;
+}
+
+.Contact-us-form input:focus,
+.Contact-us-form textarea:focus {
+    background-color: #2E2E2E;
+    border: solid 1px #9292FF !important;
 }

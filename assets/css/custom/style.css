@@ -14,6 +14,19 @@ p, a, h1, h2, h3, h4, h5, h6, span {
     color: #14274E;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #C3D0D9 !important;
+    opacity: 1 !important; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #C3D0D9 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #C3D0D9 !important;
+}
+
 a:hover {
     color: #252525;
     text-decoration: none;
@@ -26,6 +39,13 @@ a:hover {
 .wrapper {
     padding-top: 120px;
     overflow: hidden;
+}
+
+@media (max-width:576px) {
+
+    .wrapper {
+        padding-top: 70px;
+    }
 }
 
 
@@ -85,10 +105,12 @@ header .dropdown>.dropdown-toggle:active {
     width: 100%;
     max-height: 700px;
     float: left;
+    z-index: -1;
 }
 
 .header-background-two {
     position: relative;
+    z-index: -1;
 }
 .header-background-two img {
     height: 400px;
@@ -1367,14 +1389,105 @@ blockquote::after{
 }
 
 
-#commentMessage {
+#commentMassage {
     resize: vertical;
     width: 100%;
     border: none;
     overflow: hidden;
 }
 
-#commentMessage:focus {
+#commentMassage:focus {
     box-shadow: none;
     outline: none !important;
+}
+
+
+
+.login-register {
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .07);
+}
+
+.login-register input {
+    color: #9292FF !important;
+    border: solid 1px #D8E3EB !important;
+    border-radius: 10px !important;
+}
+
+.login-register input:focus {
+    border: solid 1px #9292FF !important;
+    border-radius: 10px !important;
+}
+
+.login-register .google-icon {
+    border: solid 2px #D8E3EB;
+    padding: 8px;
+    border-radius: 100rem;
+}
+
+.login-register .link {
+    color: #9292FF;
+}
+
+
+
+
+
+.contact-us-item-card {
+    padding: 30px 20px;
+    margin-top: 50px;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    min-height: 290px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, .05);
+}
+
+.contact-us-item-card .contact-image-item {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    background-color: #F4FAFE;
+    border-radius: 100rem;
+    display: block;
+    margin: auto;
+}
+
+.contact-us-item-card .contact-image-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.Contact-us-form {
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.Contact-us-form textarea {
+    overflow: hidden;
+    min-height: 120px;
+}
+
+.Contact-us-form input,
+.Contact-us-form textarea {
+    color: #9292FF !important;
+    border: solid 1px #D8E3EB !important;
+    border-radius: 10px !important;
+}
+
+.Contact-us-form input:focus,
+.Contact-us-form textarea:focus {
+    border: solid 1px #9292FF !important;
+    border-radius: 10px !important;
 }
