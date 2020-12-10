@@ -2,7 +2,7 @@ body {
     background: #292929;
 }
 
-p, a, h1, h2, h3, h4, h5, h6, span {
+p, a, h1, h2, h3, h4, h5, h6, span, li {
     color: #ffffff;
 }
 
@@ -284,4 +284,72 @@ input:checked+.slider:before {
     background: #242424 url('../../img/theme-toggle-icons/dark-toggle-icon.png');
     background-repeat: no-repeat;
     background-position: center;
+}
+
+
+
+.search-box {
+    background-color: #202020;
+}
+
+.search-box input {
+    background-color: #202020;
+    color: white !important;
+}
+
+.search-box input:focus {
+    background-color: #202020;
+}
+
+.search-box button {
+    color: white;
+}
+
+.search-box button:hover {
+    color: white;
+}
+
+
+
+.pagination .page-item a {
+    color: #C3D0D9;
+    background-color: #1F1F1F;
+}
+
+.pagination .page-item.disabled a {
+    color: #4b4b4b;
+}
+
+
+
+.sidbar-item-link.tag {
+    background-color: #333333;
+}
+
+.sidbar-item-link.tag:hover {
+    background-color: #303030;
+}
+
+
+blockquote{
+    color: #a5a5a5;
+    border-right: 10px solid #9292FF;
+    border-left: 2px solid #9292FF;
+    background:#1F1F1F;
+}
+
+blockquote::before{
+    color:#9292FF;
+}
+
+
+
+.blog-comments .item {
+    background-color: #333333;
+}
+
+
+#commentMessage {
+    background-color: #333333;
+    color: #fff;
 }

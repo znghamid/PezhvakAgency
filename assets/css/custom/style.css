@@ -36,6 +36,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 100;
+    top: 0;
     background: #fff;
     box-shadow: 0 25px 50px rgba(0, 0, 0, .05);
 }
@@ -84,6 +85,14 @@ header .dropdown>.dropdown-toggle:active {
     width: 100%;
     max-height: 700px;
     float: left;
+}
+
+.header-background-two {
+    position: relative;
+}
+.header-background-two img {
+    height: 400px;
+    width: 100%;
 }
 
 .image-up-down {
@@ -1176,4 +1185,196 @@ input [type=number]:focus,
 
 .error-title {
     font-size: 8rem;
+}
+
+
+.page-title {
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.search-box {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
+    padding: 5px 10px;
+    min-width: 270px !important;
+}
+
+.search-box input{
+    background-color: transparent;
+    border: none;
+    border-radius: 15px !important;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb-item a {
+    color: #9292FF !important;
+}
+.breadcrumb-item.active {
+    color: #C3D0D9 !important;
+}
+
+.breadcrumb-item::before {
+    color: #303958 !important;
+    padding-left: .5rem;
+}
+
+.pagination {
+    overflow-x: auto;
+    height: 70px;
+}
+
+.pagination .page-item:nth-child(1) {
+    margin-right: auto !important;
+}
+.pagination .page-item:last-child {
+    margin-left: auto !important;
+}
+
+.pagination::-webkit-scrollbar,
+.breadcrumb-section::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.pagination,
+.breadcrumb-section {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.pagination>li:last-child>a {
+    margin-right: 5px;
+}
+
+.pagination .page-item a {
+    border: none;
+    border-radius: 10px !important;
+    padding: 10px 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
+    margin: 5px;
+    color: #C3D0D9;
+    background-color: #fff;
+}
+
+.pagination .page-item span {
+    color: #C3D0D9;
+}
+
+.pagination .page-item.active a {
+    border: none;
+    border-radius: 10px !important;
+    padding: 10px 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
+    margin: 5px;
+    color: #fff;
+    background-color: #9292FF;
+}
+
+.pagination .page-item.disabled a {
+    border: none;
+    border-radius: 10px !important;
+    padding: 10px 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
+    margin: 5px;
+    color: #eee;
+    background-color: transparent;
+}
+
+.sidbar-item-link {
+    color: #707e9b;
+    margin: 15px 0px;
+}
+
+.sidbar-item-link.tag {
+    display: inline-block;
+    margin: 0 15px;
+    margin-right: 0;
+    margin-bottom: 15px;
+    background-color: #F4FAFE;
+    border-radius: 50rem;
+    padding: 5px 15px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.sidbar-item-link.tag:hover {
+    background-color: #e2f3ff;
+    border-radius: 50rem;
+    padding: 5px 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+}
+
+
+
+.top-blog-content img {
+    border-radius: 20px;
+}
+
+
+blockquote{
+    font-size: 1.4em;
+    margin: 50px auto;
+    color: #4848af;
+    padding: 15px 55px 25px 25px;
+    border-right: 10px solid #9292FF;
+    border-left: 2px solid #9292FF;
+    line-height: 1.6;
+    position: relative;
+    background:#f5f5ff;
+}
+
+blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#9292FF;
+    font-size:4em;
+    position: absolute;
+    right: 20px;
+    top:-20px;
+}
+
+blockquote::after{
+    content: '';
+}
+
+
+.blog-text img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.blog-comments .item {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .07);
+}
+
+
+#commentMessage {
+    resize: vertical;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+}
+
+#commentMessage:focus {
+    box-shadow: none;
+    outline: none !important;
 }

@@ -3,6 +3,10 @@ function loader(){
     document.getElementById('preloader').classList.add('d-none');
 }
 
+// Lazyload
+const myLazyLoad = new LazyLoad({
+    elements_selector: "img"
+})
 
 // Show and hide scroll to top button
 var BackToTopButton = $('#BackToTopButton');
@@ -27,6 +31,23 @@ jQuery(function(){
 
         $(this).html(
             t.slice(0,minimize_character_count )+'<span>...</span>'
+        );
+    }); 
+});
+
+
+// Minimize big text
+jQuery(function(){
+    
+    var minimized_elements_big = $('p.minimize-big');
+    var minimize_character_count_big = 140;    
+
+    minimized_elements_big.each(function(){    
+        var t = $(this).text();        
+        if(t.length < minimize_character_count_big ) return;
+
+        $(this).html(
+            t.slice(0,minimize_character_count_big )+'<span>...</span>'
         );
     }); 
 });
@@ -171,9 +192,17 @@ try {
 
 
 // Swiper js 
-
 // for comments
 try {
+    // for certificate logo in footer
+    var swiper = new Swiper('.swiper-certificate', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        autoplay: {
+            delay: 3000,
+        },
+    });
+    
     var swiper = new Swiper('.swiper-comments', {
         direction: 'vertical',
         slidesPerView: 1,
@@ -200,16 +229,6 @@ try {
     var swiper = new Swiper('.swiper-projects-btn', {
         slidesPerView: 'auto',
         freeMode: true,
-    });
-    
-    // for certificate logo in footer
-    var swiper = new Swiper('.swiper-certificate', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        autoplay: {
-            delay: 3000,
-        },
     });
 } catch (error) {
     // 
@@ -248,7 +267,6 @@ function w3RemoveClass(element, name) {
     }
     element.className = arr1.join(" ");
 }
-
 // Add active class to the current button (highlight it)
 try {
     var btnContainer = document.getElementById("ProjectsBtnContainer");
