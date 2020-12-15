@@ -420,3 +420,16 @@ blockquote::before{
     background-color: #2E2E2E;
     border: solid 1px #9292FF !important;
 }
+
+
+
+
+.item-card {
+    background-color: #292929;
+    border: solid 1px #363636;
+}
+
+.item-card:hover {
+    background-color: #363636;
+    border: solid 1px #363636;
+}
