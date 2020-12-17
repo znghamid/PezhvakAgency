@@ -10,7 +10,7 @@
 
 body {
     position: relative;
-    background: #ffffff;
+    background: #FCFCFC;
 }
 
 p, a, h1, h2, h3, h4, h5, h6, span {
@@ -1347,12 +1347,6 @@ input [type=number]:focus,
 }
 
 
-
-.top-blog-content img {
-    border-radius: 20px;
-}
-
-
 blockquote{
     font-size: 1.4em;
     margin: 50px auto;
@@ -1380,11 +1374,11 @@ blockquote::after{
 }
 
 
-.blog-text img {
+.blog-single img {
     max-width: 100%;
     height: auto;
+    border: solid 1px #eee;
 }
-
 
 
 .blog-comments .item {
@@ -1557,4 +1551,86 @@ blockquote::after{
     -ms-transform: translateY(-15px);
     -o-transform: translateY(-15px);
     transform: translateY(-15px);
+}
+
+
+
+.faq-container .card-header {
+    border-bottom: none;
+    padding: 0;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.faq-container .card-header a {
+    color: #9292FF;
+    background-color: transparent;
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+
+.faq-container .card-header a:hover {
+    text-decoration: none;
+    color: #A5A5F6;
+}
+
+.faq-container .card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid 1px #eee;
+    margin: 15px 0;
+}
+
+
+.faq-container .card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .05);
+    border: solid 1px #fff;
+}
+
+
+
+.projects-single img {
+    max-width: 100%;
+    height: auto;
+    border: solid 1px #eee;
+}
+
+.projects-text a {
+    color: #9292FF;
+    background-color: #efefef;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.blog-text a {
+    color: #9292FF;
+    background-color: #efefef;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.projects-main-image {
+    width: 100%;
+    max-height: 450px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .03);
+}
+
+.projects-main-image img {
+    max-width: 100%;
+}
+
+.projects-main-image:hover img {
+    animation: moveImageShow 10s linear;animation-fill-mode: forwards;
+}
+
+@keyframes moveImageShow {
+    100% {
+    transform: translateY(calc(-100% + 450px));
+    }
 }

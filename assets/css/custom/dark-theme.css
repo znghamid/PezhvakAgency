@@ -433,3 +433,40 @@ blockquote::before{
     background-color: #363636;
     border: solid 1px #363636;
 }
+
+
+
+.faq-container .card-header a {
+    color: #9292FF;
+}
+
+.faq-container .card-header a:hover {
+    color: #A5A5F6;
+}
+
+.faq-container .card {
+    background-color: #262626;
+    border: solid 1px #363636;
+}
+
+
+.faq-container .card:hover {
+    border: solid 1px #343434;
+    background-color: #343434;
+}
+
+
+.projects-text a {
+    color: #9292FF;
+    background-color: #363636;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.blog-text a {
+    color: #9292FF;
+    background-color: #363636;
+    padding: 3px 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
