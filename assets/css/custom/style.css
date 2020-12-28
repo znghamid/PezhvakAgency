@@ -1,6 +1,6 @@
 /* Global style */
 * {
-    font-family: 'IranSans';
+    font-family: 'IranSans', sans-serif;
     font-weight: normal;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -719,6 +719,9 @@ header .dropdown>.dropdown-toggle:active {
     bottom: 0;
     left: 50%;
     -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
@@ -735,6 +738,9 @@ header .dropdown>.dropdown-toggle:active {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -994,6 +1000,10 @@ footer {
     position: fixed;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -1200,6 +1210,10 @@ input [type=number]:focus,
 .section-errors img{
     position: absolute;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: -1;
 }
@@ -1207,6 +1221,10 @@ input [type=number]:focus,
 .error-content {
     position: absolute;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 100%;
 }

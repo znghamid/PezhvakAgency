@@ -1,0 +1,342 @@
+header .nav-item a {
+    margin-right: 15px;
+}
+
+header .dropdown .dropdown-menu {
+    direction: rtl !important;
+}
+
+.header-background-one img {
+    float: left;
+}
+
+
+
+/* The switch - the box around the slider */
+.switch {
+    margin-left: 20px;
+}
+
+
+.slider:before {
+    left: -5px;
+    margin: auto 0;
+}
+
+
+
+.login-register-button {
+    padding: 10px 20px;
+}
+
+.login-register-button::after {
+    left: -35%;
+    transform: skew(50deg);
+    transform-origin: top left;
+}
+
+
+
+.btn-section-one-contact-us {
+    padding: 10px 40px;
+}
+
+.btn-section-one-chat-with-us {
+    padding: 10px 40px;
+}
+
+
+
+.btn-pink {
+    padding: 10px 40px;
+}
+
+
+
+.cart-button-go {
+    padding: 5px 20px;
+}
+
+.cart-button-go::after {
+    left: -35%;
+    transform-origin: top left;
+}
+
+
+
+.see-more-btn-outline {
+    padding: 10px 20px;
+}
+
+
+
+.see-more-btn {
+    padding: 10px 30px;
+}
+
+
+
+/* Social links style */
+.social-links a {
+    padding: 2px 6px;
+    margin: 10px 5px;
+}
+
+
+
+.megamenu>a::before {
+    left: 0px;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+}
+
+.megamenu:hover>a::before {
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
+}
+
+
+
+.hover-bottom-line::before {
+    left: 0px;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+}
+
+.hover-bottom-line:hover::before {
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
+}
+
+
+
+.services-card {
+    padding: 30px 20px;
+}
+
+
+
+.py-section {
+    padding: 130px 0;
+}
+
+
+
+.swiper-comments .swiper-slide {
+    margin-right: 0;
+}
+
+
+
+.comments-div {
+    padding: 15px 20px;
+}
+
+.comments-text {
+    padding-right: 0px;
+}
+
+
+
+/* Scroll to top button */
+.scroll-to-top {
+    right: 30px;
+}
+
+
+
+.card-pricing .bg-pricing {
+    right: 0;
+}
+
+
+
+.pricing-card-info input[type="radio"].toggle+label:after {
+    transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.pricing-card-info input[type="radio"].toggle.toggle-left+label {
+    border-right: 0;
+}
+
+.pricing-card-info input[type="radio"].toggle.toggle-left+label:after {
+    left: 100%;
+}
+
+.pricing-card-info input[type="radio"].toggle.toggle-right+label {
+    margin-left: -5px;
+}
+
+.pricing-card-info input[type="radio"].toggle.toggle-right+label:after {
+    left: -100%;
+}
+
+.pricing-card-info input[type="radio"].toggle:checked+label:after {
+    left: 0;
+}
+
+
+
+/* Projects style and filter style */
+#ProjectsBtnContainer .btn {
+    margin: 0 10px;
+    padding: 7px 15px;
+}
+
+
+
+.filter-projects-item .shape-bg-projects {
+    left: 10px;
+}
+
+.filter-projects-item .hover-on-projects-content {
+    right: 0;
+}
+
+
+
+@keyframes ldio-q1sbdvhqnj {
+    0% {
+        left: 96px;
+    }
+
+    100% {
+        left: 18px;
+    }
+}
+
+
+
+.search-box {
+    padding: 5px 10px;
+}
+
+
+
+.breadcrumb-item::before {
+    padding-left: .5rem;
+}
+
+
+
+.pagination .page-item:nth-child(1) {
+    margin-right: auto !important;
+}
+.pagination .page-item:last-child {
+    margin-left: auto !important;
+}
+
+
+
+.pagination>li:last-child>a {
+    margin-right: 5px;
+}
+
+.pagination .page-item a {
+    padding: 10px 20px;
+}
+
+.pagination .page-item.active a {
+    padding: 10px 20px;
+}
+
+.pagination .page-item.disabled a {
+    border: none;
+    padding: 10px 20px;
+}
+
+
+
+.sidbar-item-link {
+    margin: 15px 0px;
+}
+
+.sidbar-item-link.tag {
+    margin: 0 15px;
+    margin-right: 0;
+    padding: 5px 15px;
+}
+
+.sidbar-item-link.tag:hover {
+    padding: 5px 15px;
+}
+
+
+
+blockquote{
+    margin: 50px auto;
+    padding: 15px 55px 25px 25px;
+    border-right: 10px solid #9292FF;
+    border-left: 2px solid #9292FF;
+}
+
+blockquote::before{
+    right: 20px;
+}
+
+
+
+.contact-us-item-card {
+    padding: 30px 20px;
+}
+
+
+
+.item-card .image-item img.red {
+    background-color: #FBA1AB;
+}
+.item-card .image-item img.yellow {
+    background-color: #F7E1A9;
+}
+.item-card .image-item img.purple {
+    background-color: #C4C4FB;
+}
+.item-card .image-item img.pink {
+    background-color: #FBC0D1;
+}
+.item-card .image-item img.orange {
+    background-color: #FBC29B;
+}
+.item-card .image-item img.green {
+    background-color: #9DE7D6;
+}
+.item-card .image-item img.blue {
+    background-color: #B4CCDF;
+}
+.item-card .image-item img.sea {
+    background-color: #C0F5FB;
+}
+
+
+
+.faq-container .card-header a {
+    padding: 25px 20px;
+}
+
+.faq-container .card {
+    margin: 15px 0;
+}
+
+
+
+
+
+.projects-text a {
+    padding: 3px 10px;
+    margin: 0 10px;
+}
+
+.blog-text a {
+    padding: 3px 10px;
+    margin: 0 10px;
+}
+
+
+
+.projects-main-image {
+    margin: 0 auto;
+}
