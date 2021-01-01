@@ -1,3 +1,10 @@
+.site-logo {
+    margin-right: auto !important;
+    margin-left: unset !important;
+}
+
+
+
 header .nav-item a {
     margin-right: 15px;
 }
@@ -8,6 +15,31 @@ header .dropdown .dropdown-menu {
 
 .header-background-one img {
     float: left;
+}
+
+
+.menu-icon {
+    margin-left: 20px;
+}
+
+
+.megamenu h6 {
+    margin-left: auto;
+}
+
+.cart-dropdown {
+    left: 0;
+    right: auto;
+}
+
+
+.cart-scroll-section span {
+    margin-left: 16px;
+}
+
+
+.shop-cart .badge {
+    margin-right: -8px;
 }
 
 
@@ -27,6 +59,7 @@ header .dropdown .dropdown-menu {
 
 .login-register-button {
     padding: 10px 20px;
+    margin-right: 16px;
 }
 
 .login-register-button::after {
@@ -195,18 +228,6 @@ header .dropdown .dropdown-menu {
 
 .filter-projects-item .hover-on-projects-content {
     right: 0;
-}
-
-
-
-@keyframes ldio-q1sbdvhqnj {
-    0% {
-        left: 96px;
-    }
-
-    100% {
-        left: 18px;
-    }
 }
 
 

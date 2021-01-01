@@ -113,7 +113,7 @@ try {
     const navigator = menu.navigation({
         selectedClass: 'Selected',
         slidingSubmenus: true,
-        title: 'آژانس پژواک',
+        title: 'Pezhvak Agency',
     });
     const drawer = menu.offcanvas({
         position: 'right',

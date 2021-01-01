@@ -1,3 +1,12 @@
+#mobileMenu {
+    text-align: left !important;
+}
+
+#mobileMenu ul {
+    text-align: left !important;
+}
+
+
 .mm-ocd__content {
     width: 270px !important;
     background: white !important;
@@ -17,15 +26,15 @@
 }
 
 .mm-spn li:before {
-    right: auto !important;
-    left: calc(var(--mm-spn-item-height)/ 2);
+    left: auto !important;
+    right: calc(var(--mm-spn-item-height)/ 2);
     -webkit-transform: rotate(-135deg) translate(0, 50%) !important;
     -ms-transform: rotate(-135deg) translate(0, 50%) !important;
     transform: rotate(-135deg) translate(0, 50%) !important;
 }
 
 .mm-spn li:after {
-    margin-right: var(--mm-spn-item-indent);
+    margin-left: var(--mm-spn-item-indent);
 }
 
 .mm-spn a, .mm-spn span {

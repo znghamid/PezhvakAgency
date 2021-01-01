@@ -1,3 +1,13 @@
+#mobileMenu {
+    text-align: right;
+}
+
+#mobileMenu ul {
+    text-align: right;
+}
+
+
+
 .mm-ocd__backdrop {
     left: 0;
     right: 270px !important;
