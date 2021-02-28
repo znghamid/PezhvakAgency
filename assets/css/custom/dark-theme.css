@@ -233,10 +233,16 @@ header .dropdown .dropdown-menu {
 /* Scroll to top button */
 .scroll-to-top {
     background: #202020;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .05);
 }
 
 .scroll-to-top i {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
     color: #677592;
+    transition: all .5s;
 }
 
 .scroll-to-top:hover i {
